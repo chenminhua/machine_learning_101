@@ -2,7 +2,7 @@ import pandas as pd
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
 
-stats = pd.read_table("../data/regression.csv")
+stats = pd.read_table("../../data/regression.csv")
 # stats.info()
 
 positional_rating = stats.iloc[:, [0, 1, 2, 3]]
