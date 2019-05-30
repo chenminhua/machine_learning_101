@@ -2,7 +2,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 import pandas as pd
 from sklearn import linear_model
-data = pd.read_csv('./data/titanic.csv')   # DataFrame
+data = pd.read_csv('../../data/titanic.csv')   # DataFrame
 data.describe()
 
 
